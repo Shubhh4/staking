@@ -1,7 +1,7 @@
 import express from 'express';
 import Moralis from 'moralis';
 import dotenv from 'dotenv';
-import cors from 'corss';
+import cors from 'cors';
 
 const app = express();
 const port = 5001;
