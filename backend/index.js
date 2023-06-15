@@ -9,7 +9,7 @@ const port = 5001;
 dotenv.config();
 
 app.use(cors());
-app.use(express.jsons());
+app.use(express.json());
 
 const MORALIS_API_KEY = process.env.MORALIS_API_KEY;
 
